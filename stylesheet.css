@@ -1,0 +1,98 @@
+html {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background: url(img/tgray.png);
+}
+
+h2,h3,h4 {
+	font-weight: 400;
+}
+
+p,ul {
+	font-weight: 200;
+}
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  	Helvetica, Arial, "Lucida Grande", sans-serif;
+  	color: #3f3f3f;
+	width: 800px;
+	margin: 0 auto;
+}
+
+header h1 {
+	font-size: 110px;
+	letter-spacing: 7px;
+	font-weight: 200;
+	margin: 30px auto 0 auto;
+	padding: 0;
+}
+
+header p {
+	font-size: 1.5em;
+	text-align: right;
+	margin-top: 5px;
+}
+
+/* Gradient transparent - color - transparent */ 
+
+hr { 
+	border: 0; height: 1px; 
+	background: #333; 
+	background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+	background-image: -moz-linear-gradient(left, #ccc, #333, #ccc); 
+	background-image: -ms-linear-gradient(left, #ccc, #333, #ccc); 
+	background-image: -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+img {
+	border: 7px solid #FAFAFA;
+	border-radius: 5px;
+	width: 200px;
+	display: block;
+    margin: 23px auto 0 auto;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  	-webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  	box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+
+a {
+	color: #3f3f3f;
+	text-decoration: none;
+}
+
+a:link {
+	color: #858585;
+}
+
+a:visited {
+	color: #858585;
+}
+
+a:hover {
+	color: red;
+}
+
+aside {
+	float: left;
+	width: 250px;
+	text-align: center;
+}
+
+section {
+	float: right;
+	width: 500px;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+    list-style-image: none;
+}
+
+footer {
+	clear: both;
+	text-align: right;
+}
